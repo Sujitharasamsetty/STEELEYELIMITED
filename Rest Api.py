@@ -30,7 +30,6 @@ data = {
     "confirm_password": "secret1",
 }
 
-
 try:
     obj = UserModel(**data)
     print(obj.json())
